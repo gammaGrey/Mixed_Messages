@@ -15,8 +15,8 @@ Amuse yourself for **minutes** with the zany messages you'll receive.
 Run on command line: `node mixedMessages.js`, or run in your IDE with Node.js set up.
 
 ## Technologies
-Visual Studio Code
-Javascript
+* Visual Studio Code
+* Javascript
 
 ## License
 GPL-3.0-or-later
