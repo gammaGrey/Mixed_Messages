@@ -32,7 +32,7 @@ const randNum = (x) => {
 const phraseBank = {
     _shape: ["a cube","a sheet","a cylinder","an unrecognisable mess"],
     _verbBank: ["value","spend"],
-    _adverbBank: ["quickly","unfortunately","thankfully","suddenly","aaa","bbb","ccc"],
+    _adverbBank: ["quickly","unfortunately","thankfully","suddenly","strangely","obviously"],
     _titleBank: ["Ms","Mr","Mx","Mrs","Rev","Dr","Prof","Lord","Lady","Count","Countess","Duke","Duchess"],
     _properNounBank: {
         _firstName: ["Jeff","Dave","Wendy","Angelino","Benedict","Evelynn"],
@@ -138,7 +138,7 @@ const greet = `For the attention of ${phraseBank.title} ${phraseBank.name}:`;
 const madLib = [
     `You have ${phraseBank._timeLimit()} ${phraseBank._stateBank.state4[randNum(4)]} to move your ${phraseBank.noun} or it will be crushed into ${phraseBank.shape}.`,
     `Your subscription to ${phraseBank.noun} ${phraseBank.state}. Please contact our ${phraseBank.secNoun} Department to view and edit your subscription terms.`,
-    `This message has been generated on behalf of the ${phraseBank.secNoun} ${phraseBank.company} to inform you of ${phraseBank.adjective} changes to your ${phraseBank.noun}. To view these changes, access your ${phraseBank.adjective} ${phraseBank.secNoun} Account through our website within the next ${phraseBank._timeLimit()} ${phraseBank._stateBank.state4[randNum(4)]}.`
+    `This message has been generated on behalf of the ${phraseBank.secNoun} ${phraseBank.company} to inform you of ${phraseBank.adjective} changes to your ${phraseBank.noun}. To view these changes, access your ${phraseBank.secNoun} Account through our website within the next ${phraseBank._timeLimit()} ${phraseBank._stateBank.state4[randNum(4)]}.`
 ];
 
 // Another array to enable extended messages
