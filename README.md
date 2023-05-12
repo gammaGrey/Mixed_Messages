@@ -8,8 +8,9 @@ Amuse yourself for **minutes** with the zany messages you'll receive.
 * Hundreds of possible messages.
 ### Future changes:
 * More templates.
-* Multiple messages to be generated for each run.
-* More interesting messages to be added with variable formats.
+* Multiple messages generated for each run.
+* More interesting messages with variable formats.
+* Web-based UI.
 
 ## How to use
 Run on command line: `node mixedMessages.js`, or run in your IDE with Node.js set up.
